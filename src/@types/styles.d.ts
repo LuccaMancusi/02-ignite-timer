@@ -1,10 +1,10 @@
-//d.ts = only typescript code
+// d.ts = only typescript code
 
-import "styled-components";
-import { defaultTheme } from "../themes/default";
+import 'styled-components'
+import { defaultTheme } from '../styles/themes/default'
 
-type ThemeType = typeof defaultTheme;
+type ThemeType = typeof defaultTheme
 
-declare module "styled-components" {
+declare module 'styled-components' {
   export interface DefaultTheme extends ThemeType {}
 }
