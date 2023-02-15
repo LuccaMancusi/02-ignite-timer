@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
+// Criando um estilo global para a aplicação
 export const GlobalStyle = createGlobalStyle`
     *{
         margin: 0;
@@ -9,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
 
     :focus{
         outline: 0;
+        //Exemplo de utilização do tema criado
         box-shadow: 0 0 0 2px ${(props) => props.theme['gray-500']};
     }
 

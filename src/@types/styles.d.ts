@@ -1,4 +1,5 @@
 // d.ts = only typescript code
+// Tipando o estilo da aplicação
 
 import 'styled-components'
 import { defaultTheme } from '../styles/themes/default'

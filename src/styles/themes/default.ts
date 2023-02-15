@@ -1,3 +1,6 @@
+// Criando um tema para aplicação
+// As variáveis vão ser acessadas pelos styled componets
+
 export const defaultTheme = {
   white: '#FFF',
 
